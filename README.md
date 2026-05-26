@@ -6,7 +6,7 @@ Gradus is a full-stack web application that helps students and professionals gro
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Personalized Roadmaps** — AI-generated learning paths tailored to your target role and current skill set
 - **Resume Analyzer** — Get ATS scores, strengths, weaknesses, and keyword suggestions for your resume
@@ -17,7 +17,7 @@ Gradus is a full-stack web application that helps students and professionals gro
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -184,4 +184,10 @@ Open an [issue on GitHub](https://github.com/your-username/gradus/issues) with:
 - A clear description of the bug
 - Steps to reproduce
 - Expected vs actual behavior
+---
+
+##  License
+MIT License — feel free to use and modify.
+
+---
 
