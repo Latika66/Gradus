@@ -1,5 +1,5 @@
 // ============================================
-// SkillPulse AI - Core TypeScript Types
+// Gradus- Core TypeScript Types
 // ============================================
 
 export type NodeType =

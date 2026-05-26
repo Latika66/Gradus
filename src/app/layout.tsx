@@ -4,7 +4,7 @@ import { Providers } from "@/providers";
 import CursorGlow from "@/components/effects/CursorGlow";
 
 export const metadata: Metadata = {
-  title: "SkillPulse AI — Level Up Your Career",
+  title: "Gradus",
   description:
     "AI-powered career guidance platform with gamified learning roadmaps. Generate personalized career paths, earn XP, and land your dream tech role.",
   keywords:

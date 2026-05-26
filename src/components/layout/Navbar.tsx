@@ -27,11 +27,11 @@ export default function Navbar() {
 
           {/* Logo */}
           <Link href={session ? "/dashboard" : "/"} className="flex items-center gap-2.5">
-            <div className="w-7 h-7 rounded-md bg-[#0ea5e9] flex items-center justify-center text-xs font-bold text-white">
-              S
+            <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-[#00d4ff] to-[#7928ca] flex items-center justify-center text-xs font-bold text-white">
+              G
             </div>
-            <span className="font-semibold text-sm text-[#94a3b8] hidden sm:block tracking-tight">
-              SkillPulse
+            <span className="font-semibold text-sm text-[#00d4ff] hidden sm:block tracking-tight">
+              Gradus
             </span>
           </Link>
 

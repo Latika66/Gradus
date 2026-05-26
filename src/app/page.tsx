@@ -98,7 +98,7 @@ const outcomes = [
   },
   {
     title: "See progress you can point to",
-    desc: "XP, streaks, and completed milestones give you a record to show — yourself and others.",
+    desc: "XP, streaks, and completed milestones give you a record to show yourself and others.",
   },
   {
     title: "Ask questions without judgment",
@@ -106,7 +106,7 @@ const outcomes = [
   },
   {
     title: "Built around your goal, not a generic curriculum",
-    desc: "Frontend Engineer at a startup is a different path than Data Scientist at a bank. SkillPulse knows the difference.",
+    desc: "Frontend Engineer at a startup is a different path than Data Scientist at a bank. Gradus knows the difference.",
   },
   {
     title: "Free to start, no credit card needed",
@@ -583,7 +583,7 @@ export default function LandingPage() {
                   border: "1px solid rgba(255,255,255,0.06)",
                 }}
               >
-                skillpulse.io/dashboard
+                Gradus.io/dashboard
               </div>
             </div>
 
@@ -807,7 +807,7 @@ export default function LandingPage() {
               <span className="gradient-text">every self-taught dev faces</span>
             </h2>
             <p className="text-[#64748b] text-sm mt-4 max-w-lg">
-              We built SkillPulse because we lived these problems. These are the outcomes it's designed around.
+              We built Gradus because we lived these problems. These are the outcomes it's designed around.
             </p>
           </div>
 
@@ -915,10 +915,10 @@ export default function LandingPage() {
             <div className="w-6 h-6 rounded-md bg-[#0ea5e9] flex items-center justify-center text-xs font-bold text-white">
               S
             </div>
-            <span className="text-sm font-medium text-[#94a3b8]">SkillPulse</span>
+            <span className="text-sm font-medium text-[#94a3b8]">Gradus</span>
           </div>
           <p className="text-xs text-[#334155]">
-            © 2026 SkillPulse. Built by a developer, for developers.
+            © 2026 Gradus. Built by a developer, for developers.
           </p>
         </div>
       </footer>

@@ -4,7 +4,7 @@ export const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
 
 export const MODEL_NAME = "gemini-2.5-flash";
 
-export const ROADMAP_SYSTEM_PROMPT = `You are SkillPulse AI, an expert career guidance system specialized in tech careers.
+export const ROADMAP_SYSTEM_PROMPT = `You are Gradus, an expert career guidance system specialized in tech careers.
 Your task is to generate a detailed, personalized career roadmap as a JSON object.
 
 The roadmap must be structured as a step-by-step journey with 6-10 nodes, each representing a key milestone.
@@ -54,7 +54,7 @@ JSON format:
 
 Make roadmaps practical, specific, and motivating. Use real resource URLs (MDN, freeCodeCamp, Coursera, YouTube, etc.).`;
 
-export const RESUME_ANALYZE_PROMPT = `You are SkillPulse AI, an expert resume scanner and ATS optimizer.
+export const RESUME_ANALYZE_PROMPT = `You are Gradus, an expert resume scanner and ATS optimizer.
 Analyze the text parsed from the candidate's resume and generate a detailed report.
 The target role may or may not be provided, evaluate the fit score accordingly.
 CRITICAL: Your entire response must be ONLY a raw JSON object. Do NOT include markdown, code fences, or any text outside the JSON. Start with { and end with }.
@@ -78,7 +78,7 @@ JSON format:
 
 Make assessments realistic, constructive, and highly valuable.`;
 
-export const SKILL_GAP_PROMPT = `You are SkillPulse AI, an intelligent skill-gap analysis system.
+export const SKILL_GAP_PROMPT = `You are Gradus, an intelligent skill-gap analysis system.
 Compare the user's profile (current skills, experience, and background) against their target role requirements and experience level.
 Identify missing skills, categorize them by level (beginner, intermediate, advanced gaps), rank them by importance (high, medium, low), and suggest paths for improvement.
 CRITICAL: Your entire response must be ONLY a raw JSON object. Do NOT include markdown, code fences, or any text outside the JSON. Start with { and end with }.
@@ -99,7 +99,7 @@ JSON format:
 
 Make the gap analysis detailed and actionable.`;
 
-export const CHAT_SYSTEM_PROMPT = `You are SkillPulse AI, a friendly and expert career mentor focused on tech careers.
+export const CHAT_SYSTEM_PROMPT = `You are Gradus, a friendly and expert career mentor focused on tech careers.
 
 Your personality:
 - Encouraging and motivating but honest and realistic
