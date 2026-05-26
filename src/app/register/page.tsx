@@ -79,9 +79,9 @@ export default function RegisterPage() {
         <div className="text-center mb-8">
           <Link href="/" className="inline-flex items-center gap-2">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#00d4ff] to-[#7928ca] flex items-center justify-center font-bold text-sm shadow-lg">
-              SP
+              G
             </div>
-            <span className="text-xl font-bold gradient-text">SGradus</span>
+            <span className="text-xl font-bold gradient-text">Gradus</span>
           </Link>
           <h1 className="text-2xl font-bold text-white mt-6 mb-1">Create your account</h1>
           <p className="text-sm text-[#64748b]">Start your AI-powered learning journey for free</p>
